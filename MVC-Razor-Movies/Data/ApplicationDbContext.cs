@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using MVC_Razor_Movies.Models;
 
 namespace MVC_Razor_Movies.Data
 {
@@ -12,5 +13,6 @@ namespace MVC_Razor_Movies.Data
             : base(options)
         {
         }
+        public DbSet<Movie> Movie { get; set; }
     }
 }
