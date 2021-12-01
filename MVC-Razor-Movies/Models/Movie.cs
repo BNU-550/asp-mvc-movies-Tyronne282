@@ -12,7 +12,9 @@ namespace MVC_Razor_Movies.Models
     }
 
     /// <summary>
+    /// The main properties for a movie in a database
     /// 
+    /// Created by Tyronne Bradburn
     /// </summary>
     public class Movie
     {
